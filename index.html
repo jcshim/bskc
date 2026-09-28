@@ -53,20 +53,6 @@
     </div>
   </section>
 
-  <!-- Video Section (용암해수 소개) -->
-  <section class="py-12 sm:py-16 bg-white border-b border-gray-100">
-    <div class="max-w-4xl mx-auto px-5 text-center">
-      <h2 class="text-2xl sm:text-3xl font-black text-gray-900 mb-2">제주 용암해수 이야기</h2>
-      <p class="text-gray-500 text-sm sm:text-base mb-8 font-medium">청정 제주 용암해수와 김치가 만나 완성되는 과정</p>
-      <div class="relative w-full rounded-2xl overflow-hidden shadow-xl bg-black border border-gray-200 aspect-video">
-        <video controls class="w-full h-full object-cover">
-          <source src="lawa.mp4" type="video/mp4">
-          사용하시는 브라우저는 동영상을 지원하지 않습니다.
-        </video>
-      </div>
-    </div>
-  </section>
-
   <!-- Core Values -->
   <section class="py-12 sm:py-16 bg-white">
     <div class="max-w-6xl mx-auto px-5">
@@ -112,65 +98,56 @@
     </div>
   </section>
 
-  <!-- News Section (언론 보도) -->
+  <!-- News Section (한 줄 버튼 배치) -->
   <section class="py-12 sm:py-16 bg-gray-50 border-t border-gray-200/60">
-    <div class="max-w-4xl mx-auto px-5">
+    <div class="max-w-6xl mx-auto px-5">
       <div class="text-center mb-8">
         <h2 class="text-2xl sm:text-3xl font-black text-gray-900">언론에 소개된 <span class="text-red-600">용암해수 김치</span></h2>
         <p class="text-gray-500 text-sm sm:text-base mt-2 font-medium">뉴스 보도로 입증된 품질과 가치</p>
       </div>
 
-      <div class="space-y-3">
-        <!-- News Link 1 -->
-        <a href="https://kr.aving.net/news/articleView.html?idxno=1813943" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-xl border border-gray-200 hover:border-red-400 hover:shadow-md transition group">
-          <div class="flex items-center gap-3">
-            <i class="fa-solid fa-newspaper text-red-600 text-lg"></i>
-            <span class="text-sm sm:text-base font-bold text-gray-800 group-hover:text-red-600 transition">용암해수김치 - 지호의식탁</span>
-          </div>
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-red-600 transition"></i>
+      <!-- 5개 버튼 한 줄 배치 (작은 화면에서는 자동 줄바꿈) -->
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <!-- News Button 1 -->
+        <a href="https://kr.aving.net/news/articleView.html?idxno=1813943" target="_blank" class="flex items-center gap-2 px-4 py-3 bg-white text-gray-800 text-xs sm:text-sm font-bold rounded-xl border border-gray-200 shadow-sm hover:border-red-500 hover:text-red-600 hover:shadow-md transition">
+          <i class="fa-solid fa-newspaper text-red-600"></i>
+          <span>용암해수김치-지호의식탁</span>
+          <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-400"></i>
         </a>
 
-        <!-- News Link 2 -->
-        <a href="https://n.news.naver.com/article/009/0005450347?lfrom=kakao" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-xl border border-gray-200 hover:border-red-400 hover:shadow-md transition group">
-          <div class="flex items-center gap-3">
-            <i class="fa-solid fa-newspaper text-red-600 text-lg"></i>
-            <span class="text-sm sm:text-base font-bold text-gray-800 group-hover:text-red-600 transition">심부자김치 - 매일경제</span>
-          </div>
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-red-600 transition"></i>
+        <!-- News Button 2 -->
+        <a href="https://n.news.naver.com/article/009/0005450347?lfrom=kakao" target="_blank" class="flex items-center gap-2 px-4 py-3 bg-white text-gray-800 text-xs sm:text-sm font-bold rounded-xl border border-gray-200 shadow-sm hover:border-red-500 hover:text-red-600 hover:shadow-md transition">
+          <i class="fa-solid fa-newspaper text-red-600"></i>
+          <span>심부자김치-매일경제</span>
+          <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-400"></i>
         </a>
 
-        <!-- News Link 3 -->
-        <a href="https://n.news.naver.com/article/009/0005276659?lfrom=kakao" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-xl border border-gray-200 hover:border-red-400 hover:shadow-md transition group">
-          <div class="flex items-center gap-3">
-            <i class="fa-solid fa-newspaper text-red-600 text-lg"></i>
-            <span class="text-sm sm:text-base font-bold text-gray-800 group-hover:text-red-600 transition">정담채김치 - 매일경제</span>
-          </div>
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-red-600 transition"></i>
+        <!-- News Button 3 -->
+        <a href="https://n.news.naver.com/article/009/0005276659?lfrom=kakao" target="_blank" class="flex items-center gap-2 px-4 py-3 bg-white text-gray-800 text-xs sm:text-sm font-bold rounded-xl border border-gray-200 shadow-sm hover:border-red-500 hover:text-red-600 hover:shadow-md transition">
+          <i class="fa-solid fa-newspaper text-red-600"></i>
+          <span>정담채김치-매일경제</span>
+          <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-400"></i>
         </a>
 
-        <!-- News Link 4 -->
-        <a href="https://n.news.naver.com/article/366/0000898648?lfrom=kakao" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-xl border border-gray-200 hover:border-red-400 hover:shadow-md transition group">
-          <div class="flex items-center gap-3">
-            <i class="fa-solid fa-newspaper text-red-600 text-lg"></i>
-            <span class="text-sm sm:text-base font-bold text-gray-800 group-hover:text-red-600 transition">용암해수김치 - 공영홈쇼핑</span>
-          </div>
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-red-600 transition"></i>
+        <!-- News Button 4 -->
+        <a href="https://n.news.naver.com/article/366/0000898648?lfrom=kakao" target="_blank" class="flex items-center gap-2 px-4 py-3 bg-white text-gray-800 text-xs sm:text-sm font-bold rounded-xl border border-gray-200 shadow-sm hover:border-red-500 hover:text-red-600 hover:shadow-md transition">
+          <i class="fa-solid fa-newspaper text-red-600"></i>
+          <span>용암해수김치-공용홈쇼핑</span>
+          <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-400"></i>
         </a>
 
-        <!-- News Link 5 -->
-        <a href="https://n.news.naver.com/article/366/0000749126?lfrom=kakao" target="_blank" class="flex items-center justify-between p-4 bg-white rounded-xl border border-gray-200 hover:border-red-400 hover:shadow-md transition group">
-          <div class="flex items-center gap-3">
-            <i class="fa-solid fa-newspaper text-red-600 text-lg"></i>
-            <span class="text-sm sm:text-base font-bold text-gray-800 group-hover:text-red-600 transition">용암해수미네랄김치 - 조선비즈</span>
-          </div>
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-red-600 transition"></i>
+        <!-- News Button 5 -->
+        <a href="https://n.news.naver.com/article/366/0000749126?lfrom=kakao" target="_blank" class="flex items-center gap-2 px-4 py-3 bg-white text-gray-800 text-xs sm:text-sm font-bold rounded-xl border border-gray-200 shadow-sm hover:border-red-500 hover:text-red-600 hover:shadow-md transition">
+          <i class="fa-solid fa-newspaper text-red-600"></i>
+          <span>용암해수미네랄김치-조선비즈</span>
+          <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-400"></i>
         </a>
       </div>
     </div>
   </section>
 
   <!-- Product Lineup -->
-  <section class="py-12 sm:py-16 bg-gray-50 border-t border-gray-200/60">
+  <section class="py-12 sm:py-16 bg-white border-t border-gray-200/60">
     <div class="max-w-6xl mx-auto px-5">
       <div class="text-center mb-10">
         <h2 class="text-2xl sm:text-3xl font-black text-gray-900">대표 상품 라인업</h2>
@@ -179,7 +156,7 @@
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         <!-- Item 1 -->
-        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
           <div>
             <span class="inline-block text-xs font-bold text-red-600 bg-red-50 px-2.5 py-1 rounded-md mb-2">인기 № 1</span>
             <h3 class="text-xl font-bold text-gray-900 mb-1">용암해수 포기김치</h3>
@@ -191,7 +168,7 @@
         </div>
 
         <!-- Item 2 -->
-        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
           <div>
             <span class="inline-block text-xs font-bold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-md mb-2">별미 추천</span>
             <h3 class="text-xl font-bold text-gray-900 mb-1">용암해수 보쌈김치</h3>
@@ -203,7 +180,7 @@
         </div>
 
         <!-- Item 3 -->
-        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
           <div>
             <span class="inline-block text-xs font-bold text-green-600 bg-green-50 px-2.5 py-1 rounded-md mb-2">아삭 별미</span>
             <h3 class="text-xl font-bold text-gray-900 mb-1">용암해수 총각김치</h3>
@@ -215,7 +192,7 @@
         </div>
 
         <!-- Item 4 -->
-        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
           <div>
             <span class="inline-block text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-md mb-2">청량 국물</span>
             <h3 class="text-xl font-bold text-gray-900 mb-1">용암해수 나박김치</h3>
@@ -230,7 +207,7 @@
   </section>
 
   <!-- Bank Account & Partner Order Guide -->
-  <section class="py-12 sm:py-16 bg-white">
+  <section class="py-12 sm:py-16 bg-white border-t border-gray-200/60">
     <div class="max-w-3xl mx-auto px-5">
       <div class="bg-gradient-to-br from-red-600 to-red-700 text-white p-6 sm:p-10 rounded-3xl shadow-xl">
         <div class="flex items-center gap-3 mb-4">
@@ -264,6 +241,20 @@
             ※ 입금 확인 시 담당 <strong>'으뜸김치 파트너' 7% 영업비</strong>가 자동 정산 처리됩니다.
           </p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section (맨 아래 배치) -->
+  <section class="py-12 sm:py-16 bg-gray-50 border-t border-gray-200">
+    <div class="max-w-4xl mx-auto px-5 text-center">
+      <h2 class="text-2xl sm:text-3xl font-black text-gray-900 mb-2">제주 용암해수 이야기</h2>
+      <p class="text-gray-500 text-sm sm:text-base mb-8 font-medium">청정 제주 용암해수와 김치가 만나 완성되는 과정</p>
+      <div class="relative w-full rounded-2xl overflow-hidden shadow-xl bg-black border border-gray-200 aspect-video">
+        <video controls class="w-full h-full object-cover">
+          <source src="lawa.mp4" type="video/mp4">
+          사용하시는 브라우저는 동영상을 지원하지 않습니다.
+        </video>
       </div>
     </div>
   </section>
